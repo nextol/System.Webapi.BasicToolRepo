@@ -58,7 +58,7 @@ jobs:
     env:
       Solution_Name: Solution\System.WebApi.BasicToolRepo.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: SourceCode\System.Webapi.BasicToolRepo.UnitTests\System.Webapi.BasicToolRepo.UnitTests.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: SourceCode\System.Webapi.BasicToolRepo    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Wap_Project_Directory: SourceCode    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
       Wap_Project_Path: SourceCode\System.Webapi.BasicToolRepo\System.Webapi.BasicToolRepo.csproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
