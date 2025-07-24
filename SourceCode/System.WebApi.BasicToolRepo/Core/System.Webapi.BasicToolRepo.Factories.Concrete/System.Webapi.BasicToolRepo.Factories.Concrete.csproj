@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\System.Webapi.BasicToolRepo.Contracts\System.Webapi.BasicToolRepo.Contracts.csproj" />
+    <ProjectReference Include="..\System.Webapi.BasicToolRepo.Factories\System.Webapi.BasicToolRepo.Factories.csproj" />
+    <ProjectReference Include="..\System.Webapi.BasicToolRepo.Infrastructure\System.Webapi.BasicToolRepo.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

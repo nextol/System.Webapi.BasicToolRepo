@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.123" />
+		<PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="5.0.4" />
+		<PackageReference Include="Npgsql" Version="9.0.3" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\System.Webapi.BasicToolRepo.Entities\System.Webapi.BasicToolRepo.Entities.csproj" />
+    <ProjectReference Include="..\System.Webapi.BasicToolRepo.Utilities\System.Webapi.BasicToolRepo.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

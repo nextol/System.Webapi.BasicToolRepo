@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.123" />
+		<PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="5.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+		<PackageReference Include="Npgsql" Version="9.0.3" />
+		<PackageReference Include="PdfSharpCore" Version="1.3.67" />
+		<PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+		<PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\System.Webapi.BasicToolRepo.Contracts\System.Webapi.BasicToolRepo.Contracts.csproj" />
+	  <ProjectReference Include="..\System.Webapi.BasicToolRepo.Entities\System.Webapi.BasicToolRepo.Entities.csproj" />
+	  <ProjectReference Include="..\System.Webapi.BasicToolRepo.Factories\System.Webapi.BasicToolRepo.Factories.csproj" />
+	  <ProjectReference Include="..\System.Webapi.BasicToolRepo.LoggerService\System.Webapi.BasicToolRepo.LoggerService.csproj" />
+	  <ProjectReference Include="..\System.Webapi.BasicToolRepo.Utilities\System.Webapi.BasicToolRepo.Utilities.csproj" />
+	</ItemGroup>
+
+</Project>
